@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57FF3FF90D0BB89EF768F642 /* libPods-GymLog.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0718831960FC0ABD71EE85C /* libPods-GymLog.a */; };
+		9B69746F1E7F661D0025AC99 /* Load.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B69746E1E7F661D0025AC99 /* Load.swift */; };
+		9B8753CB1E9FF2E700272337 /* Cardio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8753CA1E9FF2E700272337 /* Cardio.swift */; };
+		9BD4A9A11E874DC400C465C4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9BD4A9A01E874DC400C465C4 /* GoogleService-Info.plist */; };
+		9BF2E36E1E7D5F5900D2EA44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF2E36D1E7D5F5900D2EA44 /* AppDelegate.swift */; };
+		9BF2E3701E7D5F5900D2EA44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF2E36F1E7D5F5900D2EA44 /* ViewController.swift */; };
+		9BF2E3731E7D5F5900D2EA44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BF2E3711E7D5F5900D2EA44 /* Main.storyboard */; };
+		9BF2E3751E7D5F5900D2EA44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BF2E3741E7D5F5900D2EA44 /* Assets.xcassets */; };
+		9BF2E3781E7D5F5900D2EA44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BF2E3761E7D5F5900D2EA44 /* LaunchScreen.storyboard */; };
+		9BF2E3831E7D5F5900D2EA44 /* GymLogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF2E3821E7D5F5900D2EA44 /* GymLogTests.swift */; };
+		9BF2E38E1E7D5F5900D2EA44 /* GymLogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF2E38D1E7D5F5900D2EA44 /* GymLogUITests.swift */; };
+		9BF2E39C1E7DDE3A00D2EA44 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF2E39B1E7DDE3A00D2EA44 /* Date.swift */; };
+		9BF2E3A01E7DDEE100D2EA44 /* MusclesTrained.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF2E39F1E7DDEE100D2EA44 /* MusclesTrained.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9BF2E37F1E7D5F5900D2EA44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BF2E3621E7D5F5900D2EA44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BF2E3691E7D5F5900D2EA44;
+			remoteInfo = GymLog;
+		};
+		9BF2E38A1E7D5F5900D2EA44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BF2E3621E7D5F5900D2EA44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BF2E3691E7D5F5900D2EA44;
+			remoteInfo = GymLog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B5361EF66747EF746CC0FAD /* Pods-GymLog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymLog.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GymLog/Pods-GymLog.debug.xcconfig"; sourceTree = "<group>"; };
+		91F57F97DC8B59C64ED49DA0 /* Pods-GymLog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymLog.release.xcconfig"; path = "Pods/Target Support Files/Pods-GymLog/Pods-GymLog.release.xcconfig"; sourceTree = "<group>"; };
+		9B69746E1E7F661D0025AC99 /* Load.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Load.swift; sourceTree = "<group>"; };
+		9B8753CA1E9FF2E700272337 /* Cardio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cardio.swift; sourceTree = "<group>"; };
+		9BD4A9A01E874DC400C465C4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9BF2E36A1E7D5F5900D2EA44 /* GymLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BF2E36D1E7D5F5900D2EA44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9BF2E36F1E7D5F5900D2EA44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9BF2E3721E7D5F5900D2EA44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9BF2E3741E7D5F5900D2EA44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BF2E3771E7D5F5900D2EA44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9BF2E3791E7D5F5900D2EA44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BF2E37E1E7D5F5900D2EA44 /* GymLogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GymLogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BF2E3821E7D5F5900D2EA44 /* GymLogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymLogTests.swift; sourceTree = "<group>"; };
+		9BF2E3841E7D5F5900D2EA44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BF2E3891E7D5F5900D2EA44 /* GymLogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GymLogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BF2E38D1E7D5F5900D2EA44 /* GymLogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymLogUITests.swift; sourceTree = "<group>"; };
+		9BF2E38F1E7D5F5900D2EA44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BF2E39B1E7DDE3A00D2EA44 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		9BF2E39F1E7DDEE100D2EA44 /* MusclesTrained.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusclesTrained.swift; sourceTree = "<group>"; };
+		E0718831960FC0ABD71EE85C /* libPods-GymLog.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GymLog.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BF2E3671E7D5F5900D2EA44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57FF3FF90D0BB89EF768F642 /* libPods-GymLog.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BF2E37B1E7D5F5900D2EA44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BF2E3861E7D5F5900D2EA44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		062D2DCB4FB3529C97E037FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B5361EF66747EF746CC0FAD /* Pods-GymLog.debug.xcconfig */,
+				91F57F97DC8B59C64ED49DA0 /* Pods-GymLog.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9BF2E3611E7D5F5900D2EA44 = {
+			isa = PBXGroup;
+			children = (
+				9BF2E36C1E7D5F5900D2EA44 /* GymLog */,
+				9BF2E3811E7D5F5900D2EA44 /* GymLogTests */,
+				9BF2E38C1E7D5F5900D2EA44 /* GymLogUITests */,
+				9BF2E36B1E7D5F5900D2EA44 /* Products */,
+				062D2DCB4FB3529C97E037FE /* Pods */,
+				C48892A821B8880ABB3A9A70 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9BF2E36B1E7D5F5900D2EA44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BF2E36A1E7D5F5900D2EA44 /* GymLog.app */,
+				9BF2E37E1E7D5F5900D2EA44 /* GymLogTests.xctest */,
+				9BF2E3891E7D5F5900D2EA44 /* GymLogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BF2E36C1E7D5F5900D2EA44 /* GymLog */ = {
+			isa = PBXGroup;
+			children = (
+				9BD4A9A01E874DC400C465C4 /* GoogleService-Info.plist */,
+				9BF2E36D1E7D5F5900D2EA44 /* AppDelegate.swift */,
+				9B69746E1E7F661D0025AC99 /* Load.swift */,
+				9BF2E36F1E7D5F5900D2EA44 /* ViewController.swift */,
+				9BF2E3711E7D5F5900D2EA44 /* Main.storyboard */,
+				9BF2E3741E7D5F5900D2EA44 /* Assets.xcassets */,
+				9BF2E3761E7D5F5900D2EA44 /* LaunchScreen.storyboard */,
+				9BF2E3791E7D5F5900D2EA44 /* Info.plist */,
+				9BF2E39B1E7DDE3A00D2EA44 /* Date.swift */,
+				9B8753CA1E9FF2E700272337 /* Cardio.swift */,
+				9BF2E39F1E7DDEE100D2EA44 /* MusclesTrained.swift */,
+			);
+			path = GymLog;
+			sourceTree = "<group>";
+		};
+		9BF2E3811E7D5F5900D2EA44 /* GymLogTests */ = {
+			isa = PBXGroup;
+			children = (
+				9BF2E3821E7D5F5900D2EA44 /* GymLogTests.swift */,
+				9BF2E3841E7D5F5900D2EA44 /* Info.plist */,
+			);
+			path = GymLogTests;
+			sourceTree = "<group>";
+		};
+		9BF2E38C1E7D5F5900D2EA44 /* GymLogUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9BF2E38D1E7D5F5900D2EA44 /* GymLogUITests.swift */,
+				9BF2E38F1E7D5F5900D2EA44 /* Info.plist */,
+			);
+			path = GymLogUITests;
+			sourceTree = "<group>";
+		};
+		C48892A821B8880ABB3A9A70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0718831960FC0ABD71EE85C /* libPods-GymLog.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BF2E3691E7D5F5900D2EA44 /* GymLog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BF2E3921E7D5F5900D2EA44 /* Build configuration list for PBXNativeTarget "GymLog" */;
+			buildPhases = (
+				89154801685996EA28C0DD68 /* [CP] Check Pods Manifest.lock */,
+				9BF2E3661E7D5F5900D2EA44 /* Sources */,
+				9BF2E3671E7D5F5900D2EA44 /* Frameworks */,
+				9BF2E3681E7D5F5900D2EA44 /* Resources */,
+				120CF49F079BDB8BF8FE5DEE /* [CP] Embed Pods Frameworks */,
+				D3C88243C18BE9C44B86DB88 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GymLog;
+			productName = GymLog;
+			productReference = 9BF2E36A1E7D5F5900D2EA44 /* GymLog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9BF2E37D1E7D5F5900D2EA44 /* GymLogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BF2E3951E7D5F5900D2EA44 /* Build configuration list for PBXNativeTarget "GymLogTests" */;
+			buildPhases = (
+				9BF2E37A1E7D5F5900D2EA44 /* Sources */,
+				9BF2E37B1E7D5F5900D2EA44 /* Frameworks */,
+				9BF2E37C1E7D5F5900D2EA44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BF2E3801E7D5F5900D2EA44 /* PBXTargetDependency */,
+			);
+			name = GymLogTests;
+			productName = GymLogTests;
+			productReference = 9BF2E37E1E7D5F5900D2EA44 /* GymLogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9BF2E3881E7D5F5900D2EA44 /* GymLogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BF2E3981E7D5F5900D2EA44 /* Build configuration list for PBXNativeTarget "GymLogUITests" */;
+			buildPhases = (
+				9BF2E3851E7D5F5900D2EA44 /* Sources */,
+				9BF2E3861E7D5F5900D2EA44 /* Frameworks */,
+				9BF2E3871E7D5F5900D2EA44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BF2E38B1E7D5F5900D2EA44 /* PBXTargetDependency */,
+			);
+			name = GymLogUITests;
+			productName = GymLogUITests;
+			productReference = 9BF2E3891E7D5F5900D2EA44 /* GymLogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BF2E3621E7D5F5900D2EA44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Sam;
+				TargetAttributes = {
+					9BF2E3691E7D5F5900D2EA44 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = V75XT37EAM;
+						ProvisioningStyle = Automatic;
+					};
+					9BF2E37D1E7D5F5900D2EA44 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = V75XT37EAM;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9BF2E3691E7D5F5900D2EA44;
+					};
+					9BF2E3881E7D5F5900D2EA44 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = V75XT37EAM;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9BF2E3691E7D5F5900D2EA44;
+					};
+				};
+			};
+			buildConfigurationList = 9BF2E3651E7D5F5900D2EA44 /* Build configuration list for PBXProject "GymLog" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BF2E3611E7D5F5900D2EA44;
+			productRefGroup = 9BF2E36B1E7D5F5900D2EA44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BF2E3691E7D5F5900D2EA44 /* GymLog */,
+				9BF2E37D1E7D5F5900D2EA44 /* GymLogTests */,
+				9BF2E3881E7D5F5900D2EA44 /* GymLogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BF2E3681E7D5F5900D2EA44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BF2E3781E7D5F5900D2EA44 /* LaunchScreen.storyboard in Resources */,
+				9BD4A9A11E874DC400C465C4 /* GoogleService-Info.plist in Resources */,
+				9BF2E3751E7D5F5900D2EA44 /* Assets.xcassets in Resources */,
+				9BF2E3731E7D5F5900D2EA44 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BF2E37C1E7D5F5900D2EA44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BF2E3871E7D5F5900D2EA44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		120CF49F079BDB8BF8FE5DEE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GymLog/Pods-GymLog-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89154801685996EA28C0DD68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D3C88243C18BE9C44B86DB88 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GymLog/Pods-GymLog-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BF2E3661E7D5F5900D2EA44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BF2E39C1E7DDE3A00D2EA44 /* Date.swift in Sources */,
+				9B8753CB1E9FF2E700272337 /* Cardio.swift in Sources */,
+				9B69746F1E7F661D0025AC99 /* Load.swift in Sources */,
+				9BF2E3701E7D5F5900D2EA44 /* ViewController.swift in Sources */,
+				9BF2E3A01E7DDEE100D2EA44 /* MusclesTrained.swift in Sources */,
+				9BF2E36E1E7D5F5900D2EA44 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BF2E37A1E7D5F5900D2EA44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BF2E3831E7D5F5900D2EA44 /* GymLogTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BF2E3851E7D5F5900D2EA44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BF2E38E1E7D5F5900D2EA44 /* GymLogUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9BF2E3801E7D5F5900D2EA44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BF2E3691E7D5F5900D2EA44 /* GymLog */;
+			targetProxy = 9BF2E37F1E7D5F5900D2EA44 /* PBXContainerItemProxy */;
+		};
+		9BF2E38B1E7D5F5900D2EA44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BF2E3691E7D5F5900D2EA44 /* GymLog */;
+			targetProxy = 9BF2E38A1E7D5F5900D2EA44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9BF2E3711E7D5F5900D2EA44 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BF2E3721E7D5F5900D2EA44 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9BF2E3761E7D5F5900D2EA44 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BF2E3771E7D5F5900D2EA44 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BF2E3901E7D5F5900D2EA44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9BF2E3911E7D5F5900D2EA44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BF2E3931E7D5F5900D2EA44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B5361EF66747EF746CC0FAD /* Pods-GymLog.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V75XT37EAM;
+				INFOPLIST_FILE = GymLog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cs450.GymLog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9BF2E3941E7D5F5900D2EA44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91F57F97DC8B59C64ED49DA0 /* Pods-GymLog.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V75XT37EAM;
+				INFOPLIST_FILE = GymLog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cs450.GymLog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9BF2E3961E7D5F5900D2EA44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = V75XT37EAM;
+				INFOPLIST_FILE = GymLogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cs450.GymLogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GymLog.app/GymLog";
+			};
+			name = Debug;
+		};
+		9BF2E3971E7D5F5900D2EA44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = V75XT37EAM;
+				INFOPLIST_FILE = GymLogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cs450.GymLogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GymLog.app/GymLog";
+			};
+			name = Release;
+		};
+		9BF2E3991E7D5F5900D2EA44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = V75XT37EAM;
+				INFOPLIST_FILE = GymLogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cs450.GymLogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GymLog;
+			};
+			name = Debug;
+		};
+		9BF2E39A1E7D5F5900D2EA44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = V75XT37EAM;
+				INFOPLIST_FILE = GymLogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cs450.GymLogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GymLog;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BF2E3651E7D5F5900D2EA44 /* Build configuration list for PBXProject "GymLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BF2E3901E7D5F5900D2EA44 /* Debug */,
+				9BF2E3911E7D5F5900D2EA44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BF2E3921E7D5F5900D2EA44 /* Build configuration list for PBXNativeTarget "GymLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BF2E3931E7D5F5900D2EA44 /* Debug */,
+				9BF2E3941E7D5F5900D2EA44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BF2E3951E7D5F5900D2EA44 /* Build configuration list for PBXNativeTarget "GymLogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BF2E3961E7D5F5900D2EA44 /* Debug */,
+				9BF2E3971E7D5F5900D2EA44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BF2E3981E7D5F5900D2EA44 /* Build configuration list for PBXNativeTarget "GymLogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BF2E3991E7D5F5900D2EA44 /* Debug */,
+				9BF2E39A1E7D5F5900D2EA44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BF2E3621E7D5F5900D2EA44 /* Project object */;
+}
